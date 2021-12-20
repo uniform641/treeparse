@@ -1,0 +1,7 @@
+# LeetCode Cpp Tree Parser
+This little tool parses LeetCode C++ binary tree input into a tree structure `TreeNode` which is also defined in LeetCode, helping you to debug LeetCode problems in your local environment.
+
+## Usage
+Include "treeParser.hpp" in your program and call `int parseLeetCodeBinaryTree(std::string& rawString, TreeNode** pRoot)`.
+
+If you would like to free the free manually, call `void cleanTreeNode(TreeNode* root)` after you finish using the tree.
